@@ -1,0 +1,14 @@
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\bin\Debug\CoffeeManagement.exe.config
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\bin\Debug\CoffeeManagement.exe
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\bin\Debug\CoffeeManagement.pdb
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.csproj.AssemblyReference.cache
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.csproj.SuggestedBindingRedirects.cache
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.Form1.resources
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.Properties.Resources.resources
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.csproj.GenerateResource.cache
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.csproj.CoreCompileInputs.cache
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.exe
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.pdb
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.fTableManager.resources
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.fAccountProfile.resources
+E:\SourceCode\MainProjects\CoffeeManagement\CoffeeManagement\obj\Debug\CoffeeManagement.fAdmin.resources
