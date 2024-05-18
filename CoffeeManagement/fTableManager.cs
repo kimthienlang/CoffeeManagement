@@ -56,7 +56,6 @@ namespace CoffeeManagement
         private void adminToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             fAdmin adminWindow = new fAdmin();
-            this.Hide();
             adminWindow.ShowDialog();
             this.Show();
         }

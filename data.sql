@@ -22,7 +22,7 @@ go
 
 create table Account
 (
-	userName nvarchar(100) primary key,
+	username nvarchar(100) primary key,
 	displayName nvarchar(100) not null default N'admin_kali',
 	password nvarchar(1000) not null default 0,
 	type int not null default 0 -- 1: admin , 0: staff
@@ -69,3 +69,40 @@ create table BillInfo
 	foreign key (idFood) references dbo.Food(id)
 )
 go
+
+insert into dbo.Account (
+	username,
+	displayName,
+	password,
+	type
+) 
+values (
+	N'admin',
+	N'Kim Thien Lang',
+	N'1',
+	1
+)
+
+insert into dbo.Account (
+	username,
+	displayName,
+	password,
+	type
+) 
+values (
+	N'staff',
+	N'monkey loky',
+	N'1',
+	1
+)
+go
+
+create proc USP_GetAccountByUserName
+@username nvarchar(100)
+as
+begin
+	select * from dbo.Account where username = @username
+end
+go
+
+exec dbo.USP_GetAccountByUserName @username = N'staff'

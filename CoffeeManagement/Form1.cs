@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoffeeManagement.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,15 +20,26 @@ namespace CoffeeManagement
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            bool login = true;
+            string username = tbUsername.Text;
+            string password = tbPassword.Text;
+            bool login = Login(username, password);
             if (login)
             {
                 fTableManager tableManager = new fTableManager();
                 this.Hide();
                 tableManager.ShowDialog();
                 this.Show();
+            } else
+            {
+                MessageBox.Show("Your username or your password was wrong!");
             }
         }
+
+        private bool Login(string username, string password)
+        {
+            return AccountDAO.Instance.Login(username, password);
+        }
+
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
